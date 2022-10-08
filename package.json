@@ -1,0 +1,16 @@
+{  
+  "name": "slanger js",  
+  "version": "1.0.0",  
+  "description": "webdev simplified",  
+  "main": "slanger.js",  
+  "repository": {    
+    "type": "git",    
+    "url": "https://github.com/WaelHoury/SlangerJs.git"  
+  },  
+  "author": "Wael Houry",  
+  "license": "MIT",  
+  "bugs": {    
+    "url": "https://https://github.com/WaelHoury/SlangerJs.git"  
+  },  
+  "homepage": "https://github.com/WaelHoury/SlangerJs#readme"
+}
