@@ -3,7 +3,7 @@
 
 Author: Wael Houry - ⌐■‿■
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 Slanger is a lightweight JS library that simplifies writing JavaScript.
 
