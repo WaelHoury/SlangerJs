@@ -35,7 +35,7 @@ And of course Slanger itself is open source
 ## Installation
 method 1:
 
-Simply insert this script into the <head> of your project
+Simply insert this script into the head of your project
 
 ```sh
 <script src="https://unpkg.com/slangerjs"></script>
