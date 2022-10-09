@@ -23,7 +23,7 @@ Slanger is a lightweight JS library that simplifies writing JavaScript.
 
 ## Tech
 
-Slanger is based and inspired by:
+Slanger is based on and inspired by:
 - [jQuery] - duh
 - [Bling]
 - [Promise js]
