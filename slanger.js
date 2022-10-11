@@ -292,3 +292,6 @@ class FlexMiddle extends HTMLElement {
   }
 
 })(this);
+
+// serializeJson
+Element.prototype.serializeJson = function wael(){var e={},t=[];if("function"==typeof HTMLFormElement&&this instanceof HTMLFormElement)for(var n in this.elements)(this.elements[n]instanceof HTMLInputElement||this.elements[n]instanceof HTMLSelectElement||this.elements[n]instanceof HTMLTextAreaElement)&&t.push({name:this.elements[n].name,value:this.elements[n].value});else Array.isArray(this)&&(t=this);return t.reduce(function(e,t){var n=e,i=t.name.split(".");return i.forEach((e,s)=>{var r=e.replace(/\[[0-9]*\]$/,"");if(n.hasOwnProperty(r)||(n[r]=RegExp("[[0-9]*]$").test(e)?[]:{}),!(n[r]instanceof Array))return s===i.length-1?n[r]=t.value:n=n[r];var a=parseInt((e.match(RegExp("([0-9]+)]$"))||[]).pop(),10);if(a=isNaN(a)?n[r].length:a,n[r][a]=n[r][a]||{},s!==i.length-1)return n=n[r][a];if(JSON.stringify({})!==JSON.stringify(n[r][a]))for(;void 0!==n[r][a];){var l=n[r][a];n[r][a]=t.value,t.value=l,a++}return n[r][a]=t.value}),e},{})}
