@@ -4,7 +4,9 @@
 Author: Wael Houry - ⌐■‿■
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+
 [![buy me a coffe](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/waelhoury)
+
 Slanger is a lightweight JS library that simplifies writing JavaScript.
 
 - Free 🤑
