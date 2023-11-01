@@ -52,6 +52,8 @@ npm i slangerjs
 ## Features
 - Single element query ```$('class_name')```
 - Multiple elements query ```$$('class_name')```
+- ```.on('event_name', () => {})``` support
+- ```.css({})``` support
 - Full form deserialization with support to nester attributes ```$('form').serializeJson()```
 - Callbacks are attached using the .then(callback) method. They will be called when the promise is resolved.
 ```sh
@@ -62,6 +64,9 @@ p.then(function(error, result) {
     alert(result);
 });
 ```
+- Forget about centrilizing sections with this custom HTML element```<flex-center></flex-center>```
+- More features are coming soon like new custom element called ```<copyToClipboard>``` which basically allows you to copy any item inside of it to clipboard
+  
 ## License
 
 MIT
