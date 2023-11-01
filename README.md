@@ -50,8 +50,18 @@ npm i slangerjs
 ```
 
 ## Features
-- Single element query ```sh$('class_name')```
+- Single element query ```$('class_name')```
+- Multiple elements query ```$$('class_name')```
+- Full form deserialization with support to nester attributes ```$('form').serializeJson()```
+- Callbacks are attached using the .then(callback) method. They will be called when the promise is resolved.
+```sh
+var p = asyncfoo(a, b, c);
 
+p.then(function(error, result) {
+    if (error) return;
+    alert(result);
+});
+```
 ## License
 
 MIT
