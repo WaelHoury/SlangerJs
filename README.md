@@ -49,6 +49,9 @@ method 2:
 npm i slangerjs
 ```
 
+## Features
+- Single element query ```sh$('class_name')```
+
 ## License
 
 MIT
